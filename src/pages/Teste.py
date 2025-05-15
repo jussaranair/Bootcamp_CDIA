@@ -83,7 +83,6 @@ def main():
                     if response != 200:
                         st.cache_data.clear()
                     else:
-                        st.write(data)
                         with st.expander("Metricas gerais", expanded=True):
                             col1 = st.columns(2)
                             with col1[0]:
